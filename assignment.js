@@ -14,7 +14,7 @@ function kilometerToMeter(kilometer) {
 }
 
 
-// Calculate budget for watch, mobile and laptop
+// Calculate budget for watch, mobile and laptop 
 function budgetCalculator(watchQty, mobileQty, laptopQty) {
 
     // Check the given watch quantity is valid or not
@@ -52,7 +52,7 @@ function hotelCost(day) {
     if (day % 1 != 0) {
         day = Math.ceil(day);
     }
-    
+
     var totalCost = 0;
     // check how many days are being stayed
     if (day <= 10) {
